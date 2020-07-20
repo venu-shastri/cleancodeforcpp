@@ -28,6 +28,6 @@ bool vitalsAreOk(float bpm, float spo2, float respRate) {
   //int i;
     if(isBPMOk(bpm) && isspo2Ok(spo2) && isrespRateOk(respRate))
       return true;
-    else 
+    
       return false;
 }
