@@ -16,7 +16,7 @@ bool isspo2Ok(float spo2)
     return true;
 }
 
-bool isrespRateOk(float resprate)
+bool isrespRateOk(float respRate )
 {
   if(respRate < 30 || respRate > 60) {
     return false;
