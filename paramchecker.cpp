@@ -1,4 +1,4 @@
-isrespRateOk(#include "paramchecker.h"
+#include "paramchecker.h"
 
 bool isBPMOk(float bpm)
 {
